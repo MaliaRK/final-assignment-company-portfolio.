@@ -1,0 +1,207 @@
+body {
+    max-width: 1600px;
+    margin: auto;
+    background-color: whitesmoke
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content:space-between;
+    padding: 6px 25px ;
+    
+}
+
+.icons i {
+    background-color: gray;
+    border-radius:35px;
+    padding: 5px;
+}
+
+#contact {
+    color: greenyellow;
+}
+
+.contact-detail {
+    color: white;
+}
+
+button {
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns {
+    background-color: rgb(240, 234, 234);
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-weight:lighter;
+    border: none;
+}
+
+.expert-section {
+    background-color:rgb(109, 168, 50);
+    text-align: center;
+    padding-top: 5%;
+    color: white;   
+}
+
+.expert-section h1 {
+    font-size: xx-large;
+}
+
+.expert-section p {
+    font-size: large;
+    color: rgb(204, 196, 196);
+    margin: 2% 20%;
+}
+
+.expert-section button {
+    background-color: rgb(248, 180, 55);
+    border: none;
+    font-weight:normal;
+    padding: 8px 20px;
+    border-bottom: solid 2px rgb(122, 80, 1) ;
+    display: block;
+    margin: 0 auto;
+}
+
+.expert-section img {
+    margin: 25px 0 10px;
+}
+
+.expert-section pre {
+    text-align: center;
+}
+
+.advantage-section {
+    text-align: center;
+}
+
+/* span {
+    color: rgb(109, 168, 50);
+} */
+
+.advantage-section-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-lightbulb {
+    font-size: 6em;
+    background-color: rgb(240, 234, 234);
+    padding: 20px 30px;
+    border-radius: 60%;
+}
+
+.fa-thumbs-up{
+    font-size: 6em;
+    background-color: rgb(240, 234, 234);
+    padding: 20px;
+    border-radius: 60%;
+}
+
+.fa-clock {
+    font-size: 6em;
+    background-color: rgb(240, 234, 234);
+    padding: 20px;
+    border-radius: 60%;
+}
+
+.advantage-section img {
+    width: 100px;
+    background-color: rgb(240, 234, 234);
+    padding: 20px;
+    border-radius: 60%;
+}
+
+.fourth {
+    background-color: rgb(240, 234, 234);
+}
+
+.fourth h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.aboutContent {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-content: space-between;
+}
+
+.aboutContent div {
+    margin: 3% 5%;
+}
+
+.aboutContent div button {
+background-color: rgb(248, 180, 55);
+    border: none;
+    font-weight:normal;
+    padding: 8px 20px;
+    border-bottom: solid 2px rgb(122, 80, 1) ;
+}
+
+.aboutContent img {
+    width: 60%;
+    margin: auto 0;
+}
+
+.fifth {
+    text-align: center;
+}
+
+.fifth-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.fifth-content div {
+    background-color: rgb(240, 234, 234);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.fifth-content div img {
+    width: 25px;
+    color: red;
+    background-color: rgb(248, 180, 55);
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.fifth-content div span {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    header {
+        padding: 6px;
+        
+    }
+
+    .contact-detail span {
+        display: none;
+    }
+    
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btns {
+       margin: 2%;
+    }
+}
